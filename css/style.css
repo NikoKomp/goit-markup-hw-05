@@ -188,9 +188,7 @@ body {
   font-weight: bold;
   padding-bottom: 50px;
 }
-.img-doing {
-  width: 370px;
-}
+
 .our-team {
   background-color: var(--secondar-button-color);
 }
@@ -630,4 +628,26 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   padding: 63px 24px;
+}
+.img-doing {
+  width: 370px;
+  position: relative;
+}
+.pic-text {
+  position: absolute;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.pic-text > p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 27px 82px;
+
+  color: #ffffff;
 }
