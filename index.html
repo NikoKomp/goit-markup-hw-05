@@ -21,7 +21,9 @@
             <nav class="logo">
                 <a href="" class="logo-image" target="blink">Web<span class="logo-im-part2">Studio</span> </a>
                 <ul class="nav-links-item">
-                    <li class="link-bar"><a href="https://nikokomp.github.io/goit-markup-hw-04/" class="nav-links">Студия</a>
+                    <li class="link-bar"><a href="https://nikokomp.github.io/goit-markup-hw-04/" 
+                        class="nav-links mark">Студия</a>
+            
                     </li>
                     <li class="link-bar"><a href="https://nikokomp.github.io/goit-markup-hw-04/portfolio.html"
                             class="nav-links">Портфолио</a></li>
@@ -55,7 +57,13 @@
             <div class="container hero">
             <h1 class="sup-header">ЭФФЕКТИВНЫЕ РЕШЕНИЯ 
 ДЛЯ ВАШЕГО БИЗНЕСА </h1>
-            <button disabled type="button" class="button-first">Заказать услугу</button>
+            <button  type="button" class="button-first" data-modal-open>Заказать услугу</button>
+            <div class="backdrop" data-modal>
+                <div class="modal">
+                <button data-modal-close> close </button>
+                <p>Lorem ipsum dolor sit amet co</p>
+                </div>
+            </div>
             </div>
         </section>
 
@@ -390,6 +398,7 @@
         </address>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
