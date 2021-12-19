@@ -615,7 +615,7 @@ img {
   height: 100%;
   background-color: rgba(33, 150, 243, 0.9);
 
-  transform: translatey(100%);
+  transform: translatey(101%);
   transition: transform 250ms ease;
 }
 
